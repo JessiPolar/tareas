@@ -1,0 +1,33 @@
+.ingresar-tarea {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/*texto*/
+
+.ingresar-input {
+  width: 350px;
+  font-size: 16px;
+  background-color: white;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid black;
+  outline: none;
+}
+
+/* Boton */
+
+.tarea-boton {
+  padding: 16px;
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: black;
+  color: #fff;
+  text-transform: capitalize;
+}
